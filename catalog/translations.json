@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-11T00:00:00Z",
+  "translations": [
+    {
+      "id": "kjv",
+      "name": "King James Version",
+      "language": "en",
+      "languageName": "English",
+      "description": "Classic English Bible with both prebuilt SQLite and USFX source artifacts.",
+      "enabled": true,
+      "bundledByDefault": true,
+      "displayOrder": 10,
+      "artifacts": [
+        {
+          "format": "sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/kjv.sqlite",
+          "fileName": "kjv.sqlite",
+          "parserVersion": 4,
+          "schemaVersion": 1,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": true
+        },
+        {
+          "format": "usfx",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/eng-kjv2006_usfx.xml",
+          "fileName": "eng-kjv2006_usfx.xml",
+          "parserVersion": 4,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": false
+        }
+      ]
+    },
+    {
+      "id": "asv",
+      "name": "American Standard Version",
+      "language": "en",
+      "languageName": "English",
+      "description": "ASV with both prebuilt SQLite and OSIS source artifacts.",
+      "enabled": true,
+      "bundledByDefault": false,
+      "displayOrder": 20,
+      "artifacts": [
+        {
+          "format": "sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/asv.sqlite",
+          "fileName": "asv.sqlite",
+          "parserVersion": 4,
+          "schemaVersion": 1,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": true
+        },
+        {
+          "format": "osis",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv_osis.xml",
+          "fileName": "asv_osis.xml",
+          "parserVersion": 4,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": false
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "name": "World English Bible",
+      "language": "en",
+      "languageName": "English",
+      "description": "Modern public-domain translation with both prebuilt SQLite and USFX source artifacts.",
+      "enabled": true,
+      "bundledByDefault": false,
+      "displayOrder": 30,
+      "artifacts": [
+        {
+          "format": "sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/web.sqlite",
+          "fileName": "web.sqlite",
+          "parserVersion": 4,
+          "schemaVersion": 1,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": true
+        },
+        {
+          "format": "usfx",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/eng-web.usfx.xml",
+          "fileName": "eng-web.usfx.xml",
+          "parserVersion": 4,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": false
+        }
+      ]
+    },
+    {
+      "id": "sample_zefania",
+      "name": "Sample Zefania Translation",
+      "language": "en",
+      "languageName": "English",
+      "description": "Template entry showing how to publish a Zefania XML download.",
+      "enabled": false,
+      "bundledByDefault": false,
+      "displayOrder": 40,
+      "artifacts": [
+        {
+          "format": "zefania",
+          "downloadUrl": "https://raw.githubusercontent.com/your-org/bible-data/main/Zefania/sample_zefania.xml",
+          "fileName": "sample_zefania.xml",
+          "parserVersion": 4,
+          "sizeBytes": 0,
+          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "isPreferred": true
+        }
+      ]
+    }
+  ]
+}
