@@ -44,23 +44,13 @@
       "displayOrder": 20,
       "artifacts": [
         {
-          "format": "sqlite",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv/asv.sqlite",
-          "fileName": "asv.sqlite",
-          "parserVersion": 4,
-          "schemaVersion": 1,
-          "sizeBytes": 11042816,
-          "sha256": "748c72766026e0bc06896c0ebad49afc2e477a52313a732a7a1dc8b52a317137",
-          "isPreferred": true
-        },
-        {
           "format": "osis",
           "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv/asv_osis.xml",
           "fileName": "asv_osis.xml",
           "parserVersion": 4,
           "sizeBytes": 5529431,
           "sha256": "eba71f7e5f359eb45477f46094a904fc43ca1d826d44dd80ac3d7e7639fb7715",
-          "isPreferred": false
+          "isPreferred": true
         }
       ]
     },
