@@ -14,21 +14,21 @@
       "artifacts": [
         {
           "format": "sqlite",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/kjv.sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/kjv/kjv.sqlite",
           "fileName": "kjv.sqlite",
           "parserVersion": 4,
           "schemaVersion": 1,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 50307072,
+          "sha256": "49ab85c81b680fe354cb5eb7e21513db68ddb0a20c3c370ff34ee93e4dbcbc83",
           "isPreferred": true
         },
         {
           "format": "usfx",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/eng-kjv2006_usfx.xml",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/kjv/eng-kjv2006_usfx.xml",
           "fileName": "eng-kjv2006_usfx.xml",
           "parserVersion": 4,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 12180470,
+          "sha256": "e2c45a1f6afbdc3463fd7aa51fcb138e79a4e60f9132884d3b9b9fb22012f4d8",
           "isPreferred": false
         }
       ]
@@ -45,21 +45,21 @@
       "artifacts": [
         {
           "format": "sqlite",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/asv.sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv/asv.sqlite",
           "fileName": "asv.sqlite",
           "parserVersion": 4,
           "schemaVersion": 1,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 11042816,
+          "sha256": "748c72766026e0bc06896c0ebad49afc2e477a52313a732a7a1dc8b52a317137",
           "isPreferred": true
         },
         {
           "format": "osis",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv_osis.xml",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv/asv_osis.xml",
           "fileName": "asv_osis.xml",
           "parserVersion": 4,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 5529431,
+          "sha256": "eba71f7e5f359eb45477f46094a904fc43ca1d826d44dd80ac3d7e7639fb7715",
           "isPreferred": false
         }
       ]
@@ -76,43 +76,22 @@
       "artifacts": [
         {
           "format": "sqlite",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/web.sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/web/web.sqlite",
           "fileName": "web.sqlite",
           "parserVersion": 4,
           "schemaVersion": 1,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 16027648,
+          "sha256": "b3ef5eb3a7125c458bf02bb06f5457c9c561d3c33f0a45857bfffba3ddb63716",
           "isPreferred": true
         },
         {
           "format": "usfx",
-          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/eng-web.usfx.xml",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/web/eng-web.usfx.xml",
           "fileName": "eng-web.usfx.xml",
           "parserVersion": 4,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
+          "sizeBytes": 6210746,
+          "sha256": "5ffa2626f170a109a4a96afc90775c06f0821cb4ba81ed34e63663e085708d68",
           "isPreferred": false
-        }
-      ]
-    },
-    {
-      "id": "sample_zefania",
-      "name": "Sample Zefania Translation",
-      "language": "en",
-      "languageName": "English",
-      "description": "Template entry showing how to publish a Zefania XML download.",
-      "enabled": false,
-      "bundledByDefault": false,
-      "displayOrder": 40,
-      "artifacts": [
-        {
-          "format": "zefania",
-          "downloadUrl": "https://raw.githubusercontent.com/your-org/bible-data/main/Zefania/sample_zefania.xml",
-          "fileName": "sample_zefania.xml",
-          "parserVersion": 4,
-          "sizeBytes": 0,
-          "sha256": "REPLACE_WITH_REAL_SHA256",
-          "isPreferred": true
         }
       ]
     }
