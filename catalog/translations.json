@@ -1,6 +1,7 @@
 {
-  "version": 1,
-  "updatedAt": "2026-04-11T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-04-14T00:00:00Z",
+  "catalogType": "production",
   "translations": [
     {
       "id": "kjv",
@@ -11,6 +12,14 @@
       "enabled": true,
       "bundledByDefault": true,
       "displayOrder": 10,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/publicdomain.htm",
+      "copyrightNotice": "Embedded metadata says the text is firmly in the public domain outside the UK, with UK printing restrictions under the historic Crown/Queen's Printer regime.",
+      "officialSourceUrl": "https://ebible.org/Scriptures/",
+      "licenseNotesPath": "licenses/bibles/kjv.md",
       "artifacts": [
         {
           "format": "sqlite",
@@ -38,10 +47,18 @@
       "name": "American Standard Version",
       "language": "en",
       "languageName": "English",
-      "description": "ASV with both prebuilt SQLite and OSIS source artifacts.",
+      "description": "ASV with OSIS source artifacts from public-domain source material.",
       "enabled": true,
       "bundledByDefault": false,
       "displayOrder": 20,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/publicdomain.htm",
+      "copyrightNotice": "The OSIS header states: 'We believe that this Bible is found in the Public Domain.'",
+      "officialSourceUrl": "https://ebible.org/Scriptures/",
+      "licenseNotesPath": "licenses/bibles/asv.md",
       "artifacts": [
         {
           "format": "osis",
@@ -63,6 +80,14 @@
       "enabled": true,
       "bundledByDefault": false,
       "displayOrder": 30,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://worldenglishbible.org/",
+      "copyrightNotice": "The USFX preface states that the World English Bible is in the public domain and may be freely copied, distributed, and incorporated into software.",
+      "officialSourceUrl": "https://worldenglishbible.org/",
+      "licenseNotesPath": "licenses/bibles/web.md",
       "artifacts": [
         {
           "format": "sqlite",

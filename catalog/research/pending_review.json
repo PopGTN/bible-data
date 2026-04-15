@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-14T00:00:00Z",
+  "catalogType": "research",
+  "items": [
+    {
+      "id": "kjvcpb",
+      "type": "bible",
+      "name": "KJV Cambridge Paragraph Bible",
+      "language": "en",
+      "sourcePath": "English/KJVCPB/engkjvcpb_usfx",
+      "rightsStatus": "public_domain",
+      "allowDownload": false,
+      "allowBundling": false,
+      "reason": "Rights note exists and looks favorable, but this source has not yet been promoted into the production app catalog.",
+      "licenseNotesPath": "licenses/bibles/kjvcpb.md"
+    },
+    {
+      "id": "ebible_snapshot",
+      "type": "catalog",
+      "name": "eBible testing snapshot",
+      "sourcePath": "catalog/testing/ebible_list.json",
+      "rightsStatus": "unclear",
+      "allowDownload": false,
+      "allowBundling": false,
+      "reason": "This snapshot mixes public-domain, open-license, and copyrighted works. Review each entry before promotion into production."
+    },
+    {
+      "id": "hymnbooks",
+      "type": "hymnbook",
+      "name": "Hymn Books folder",
+      "sourcePath": "Hymn Books",
+      "rightsStatus": "unclear",
+      "allowDownload": false,
+      "allowBundling": false,
+      "reason": "Do not offer direct hymnbook downloads until rights are tracked at least per hymnbook and, when necessary, per song."
+    }
+  ]
+}

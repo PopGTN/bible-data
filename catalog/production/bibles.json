@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "updatedAt": "2026-04-14T00:00:00Z",
+  "catalogType": "production",
+  "translations": [
+    {
+      "id": "kjv",
+      "name": "King James Version",
+      "language": "en",
+      "languageName": "English",
+      "description": "Classic English Bible with both prebuilt SQLite and USFX source artifacts.",
+      "enabled": true,
+      "bundledByDefault": true,
+      "displayOrder": 10,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/publicdomain.htm",
+      "copyrightNotice": "Embedded metadata says the text is firmly in the public domain outside the UK, with UK printing restrictions under the historic Crown/Queen's Printer regime.",
+      "officialSourceUrl": "https://ebible.org/Scriptures/",
+      "licenseNotesPath": "licenses/bibles/kjv.md",
+      "artifacts": [
+        {
+          "format": "sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/kjv/kjv.sqlite",
+          "fileName": "kjv.sqlite",
+          "parserVersion": 4,
+          "schemaVersion": 1,
+          "sizeBytes": 50307072,
+          "sha256": "49ab85c81b680fe354cb5eb7e21513db68ddb0a20c3c370ff34ee93e4dbcbc83",
+          "isPreferred": true
+        },
+        {
+          "format": "usfx",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/kjv/eng-kjv2006_usfx.xml",
+          "fileName": "eng-kjv2006_usfx.xml",
+          "parserVersion": 4,
+          "sizeBytes": 12180470,
+          "sha256": "e2c45a1f6afbdc3463fd7aa51fcb138e79a4e60f9132884d3b9b9fb22012f4d8",
+          "isPreferred": false
+        }
+      ]
+    },
+    {
+      "id": "asv",
+      "name": "American Standard Version",
+      "language": "en",
+      "languageName": "English",
+      "description": "ASV with OSIS source artifacts from public-domain source material.",
+      "enabled": true,
+      "bundledByDefault": false,
+      "displayOrder": 20,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/publicdomain.htm",
+      "copyrightNotice": "The OSIS header states: 'We believe that this Bible is found in the Public Domain.'",
+      "officialSourceUrl": "https://ebible.org/Scriptures/",
+      "licenseNotesPath": "licenses/bibles/asv.md",
+      "artifacts": [
+        {
+          "format": "osis",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/asv/asv_osis.xml",
+          "fileName": "asv_osis.xml",
+          "parserVersion": 4,
+          "sizeBytes": 5529431,
+          "sha256": "eba71f7e5f359eb45477f46094a904fc43ca1d826d44dd80ac3d7e7639fb7715",
+          "isPreferred": true
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "name": "World English Bible",
+      "language": "en",
+      "languageName": "English",
+      "description": "Modern public-domain translation with both prebuilt SQLite and USFX source artifacts.",
+      "enabled": true,
+      "bundledByDefault": false,
+      "displayOrder": 30,
+      "rightsStatus": "public_domain",
+      "allowDownload": true,
+      "allowBundling": true,
+      "license": "Public Domain",
+      "licenseUrl": "https://worldenglishbible.org/",
+      "copyrightNotice": "The USFX preface states that the World English Bible is in the public domain and may be freely copied, distributed, and incorporated into software.",
+      "officialSourceUrl": "https://worldenglishbible.org/",
+      "licenseNotesPath": "licenses/bibles/web.md",
+      "artifacts": [
+        {
+          "format": "sqlite",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/web/web.sqlite",
+          "fileName": "web.sqlite",
+          "parserVersion": 4,
+          "schemaVersion": 1,
+          "sizeBytes": 16027648,
+          "sha256": "b3ef5eb3a7125c458bf02bb06f5457c9c561d3c33f0a45857bfffba3ddb63716",
+          "isPreferred": true
+        },
+        {
+          "format": "usfx",
+          "downloadUrl": "https://raw.githubusercontent.com/PopGTN/bible-data/main/English/web/eng-web.usfx.xml",
+          "fileName": "eng-web.usfx.xml",
+          "parserVersion": 4,
+          "sizeBytes": 6210746,
+          "sha256": "5ffa2626f170a109a4a96afc90775c06f0821cb4ba81ed34e63663e085708d68",
+          "isPreferred": false
+        }
+      ]
+    }
+  ]
+}
