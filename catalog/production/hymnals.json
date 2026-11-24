@@ -1,0 +1,15 @@
+{
+  "format": "basic-bible-repo",
+  "schemaVersion": 1,
+  "repo": {
+    "id": "official",
+    "name": "Basic Bible (official)",
+    "description": "Hymn books distributed by the Basic Bible project with confirmed rights.",
+    "maintainer": "PopGTN",
+    "homepage": "https://github.com/PopGTN/bible-data",
+    "takedownContact": "https://github.com/PopGTN/bible-data/issues/new?template=takedown.md"
+  },
+  "hymnals": [],
+  "withdrawn": [],
+  "bibles": []
+}
