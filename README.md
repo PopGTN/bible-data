@@ -28,6 +28,11 @@ bible-data/
       pending_review.json
   docs/
     repositories.md       (how repositories work / make your own)
+    making-a-hymn-book.md (by hand or with ChatGPT/Claude)
+    importing-hymn-books.md
+  templates/
+    hymn-book-template.json
+    ai-hymn-book-prompt.md
   schemas/
     repo-index-v1.schema.json
     hymnal-v1.schema.json
@@ -77,6 +82,10 @@ needed, per song.
   recorded in `licenses/hymnals/`. (The Believers Hymn Book and The New
   Believers Hymnbook are bundled inside the app instead, by permission of
   John Ritchie Ltd; their records are in `licenses/hymnals/`.)
+- [`docs/making-a-hymn-book.md`](docs/making-a-hymn-book.md): make a hymn
+  book file by hand or with ChatGPT/Claude (templates in `templates/`).
+  [`docs/importing-hymn-books.md`](docs/importing-hymn-books.md): import it
+  into the app. The app links to both from its Hymn books screen.
 - [`docs/repositories.md`](docs/repositories.md) explains how hymnal
   repositories work and how anyone can publish their own. The app links to
   it from its repository screen. File formats are defined in `schemas/`.

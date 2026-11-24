@@ -1,0 +1,55 @@
+{
+  "format": "hymnal",
+  "schemaVersion": 1,
+  "book": {
+    "id": "my-hymn-book",
+    "title": "My Hymn Book",
+    "shortTitle": "MHB",
+    "publisher": "",
+    "year": 1900,
+    "language": "en",
+    "copyright": "Public domain.",
+    "rightsStatus": "public_domain"
+  },
+  "hymns": [
+    {
+      "id": 1,
+      "title": "Amazing grace! how sweet the sound",
+      "author": "John Newton (1779)",
+      "meter": "C.M.",
+      "tuneName": "New Britain",
+      "verses": [
+        [
+          "Amazing grace! how sweet the sound",
+          "That saved a wretch like me!",
+          "I once was lost, but now am found,",
+          "Was blind, but now I see."
+        ],
+        [
+          "'Twas grace that taught my heart to fear,",
+          "And grace my fears relieved;",
+          "How precious did that grace appear",
+          "The hour I first believed!"
+        ]
+      ],
+      "chorus": []
+    },
+    {
+      "id": 2,
+      "title": "What a Friend we have in Jesus",
+      "author": "Joseph M. Scriven (1855)",
+      "meter": "8.7.8.7.D",
+      "tuneName": "Converse",
+      "verses": [
+        [
+          "What a Friend we have in Jesus,",
+          "All our sins and griefs to bear!",
+          "What a privilege to carry",
+          "Everything to God in prayer!"
+        ]
+      ],
+      "chorus": [],
+      "notes": ["Only the first verse is included in this example."]
+    }
+  ]
+}

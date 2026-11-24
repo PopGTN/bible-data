@@ -52,6 +52,10 @@ static file host works too.
 
 ### Step 1: Write the hymn books
 
+New to this? [Make your own hymn book file](making-a-hymn-book.md) walks
+through it step by step, by hand or with ChatGPT/Claude, using the
+[template](../templates/hymn-book-template.json).
+
 Each book is one JSON file, plain or gzipped (`.json.gz`, which is much
 smaller). Use the **hymnal v1 format**: book details plus the hymns.
 
