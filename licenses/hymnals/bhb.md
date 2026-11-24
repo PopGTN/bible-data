@@ -6,15 +6,15 @@
 | Title / edition / year | |
 | ISBN | |
 | Publisher (legal name, address) | John Ritchie Ltd, Kilmarnock, Scotland |
-| Who granted permission (name, role) | |
-| Date granted | |
-| Correspondence on file | `<book-id>-permission.pdf` |
-| Scope: platforms | (Android / iOS / web / desktop) |
-| Scope: bundled in app / downloadable / both | |
-| Free app only, or paid/ads allowed? | |
-| Modifications allowed? (typo fixes, line breaks, notes) | |
-| Term / how it can be revoked | |
-| **Exact credit line required** | (copy into `tool/hymnals/<id>.meta.json` → `copyright` / `permissionNotice`) |
+| Who granted permission (name, role) | Publishing Coordinator, John Ritchie Ltd, after review by their publishing committee |
+| Date granted | 2025-11-06 (requested 2025-09-17) |
+| Correspondence on file | Email thread "Permission Request to Include Hymn Texts in Free Bible & Hymn App" — kept privately by the developer, not in this public repo |
+| Scope: platforms | Requested for Android, Windows and Mac. Not yet confirmed for web, iOS or Linux — confirm before releasing there |
+| Scope: bundled in app / downloadable / both | Bundled in the app |
+| Free app only, or paid/ads allowed? | Free, non-commercial app only |
+| Modifications allowed? (typo fixes, line breaks, notes) | Requested as "presented without alteration" |
+| Term / how it can be revoked | Not stated |
+| **Exact credit line required** | None specified; the request promised "full copyright acknowledgement to John Ritchie Ltd / Ritchie Christian Media clearly shown within the app". App text: "Used by permission of John Ritchie Ltd / Ritchie Christian Media." |
 
 ## Hymns not covered by this permission
 
