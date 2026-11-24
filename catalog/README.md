@@ -13,6 +13,10 @@ This folder contains machine-readable catalogs for the Basic Bible App.
   A holding area for translations or hymnbooks that still need rights review.
 - `translations.json`
   Backward-compatible alias of the production Bible catalog.
+- `production/hymnals.json`
+  The official hymnal repository index (`"format": "basic-bible-repo"`).
+  Format and how to publish other repositories: `../docs/repositories.md`;
+  schema: `../schemas/repo-index-v1.schema.json`.
 
 ## Rights Fields
 

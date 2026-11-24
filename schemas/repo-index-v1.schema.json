@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/PopGTN/bible-data/main/schemas/repo-index-v1.schema.json",
+  "title": "Basic Bible repository index, version 1",
+  "description": "A repository of downloadable hymn books for the Basic Bible app. See docs/repositories.md.",
+  "type": "object",
+  "required": ["format", "repo"],
+  "properties": {
+    "format": { "const": "basic-bible-repo" },
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "repo": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "maintainer": { "type": "string" },
+        "homepage": { "type": "string", "format": "uri" },
+        "takedownContact": { "type": "string", "pattern": "^(mailto:|https://)" },
+        "disclaimer": { "type": "string" }
+      }
+    },
+    "hymnals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "downloadUrl"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "downloadUrl": { "type": "string", "pattern": "^https://" },
+          "publisher": { "type": "string" },
+          "language": { "type": "string" },
+          "year": { "type": "integer" },
+          "hymnCount": { "type": "integer", "minimum": 0 },
+          "rightsStatus": {
+            "enum": ["public_domain", "open_license", "permission_granted", "unclear", "copyrighted_no_distribution"]
+          },
+          "license": { "type": "string" },
+          "copyrightNotice": { "type": "string" },
+          "sizeBytes": { "type": "integer", "minimum": 0, "maximum": 20971520 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+          "schemaVersion": { "type": "integer" },
+          "updatedAt": { "type": "string" }
+        }
+      }
+    },
+    "withdrawn": { "type": "array", "items": { "type": "string" } },
+    "bibles": { "type": "array", "description": "Reserved for a later version; leave empty." }
+  }
+}

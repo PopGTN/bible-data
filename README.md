@@ -26,8 +26,14 @@ bible-data/
       ebible_list.json
     research/
       pending_review.json
+  docs/
+    repositories.md       (how repositories work / make your own)
+  schemas/
+    repo-index-v1.schema.json
+    hymnal-v1.schema.json
   licenses/
     README.md
+    hymnals/              (permission records per hymn book)
     bibles/
       asv.md
       kjv.md
@@ -65,6 +71,18 @@ distribution method. A hymnbook can include:
 If the permission is only for the book as a compilation, that may still not
 clear every song for app distribution. Track rights per hymnbook and, when
 needed, per song.
+
+- `catalog/production/hymnals.json` is the **official hymnal repository** the
+  app downloads hymn books from. A book is listed only once its rights are
+  recorded in `licenses/hymnals/`. (The Believers Hymn Book and The New
+  Believers Hymnbook are bundled inside the app instead, by permission of
+  John Ritchie Ltd; their records are in `licenses/hymnals/`.)
+- [`docs/repositories.md`](docs/repositories.md) explains how hymnal
+  repositories work and how anyone can publish their own. The app links to
+  it from its repository screen. File formats are defined in `schemas/`.
+- Full hymn texts are **not** stored in this public repo. The working files in
+  `hymnbooks/` are local only and must stay untracked.
+- Takedown requests use the issue template in `.github/ISSUE_TEMPLATE/`.
 
 ## Current Production Catalog
 
